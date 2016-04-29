@@ -1,0 +1,197 @@
+
+<html>
+   <head>
+      <style type="text/css">
+         .sikuli-code {
+            font-size: 20px;
+            font-family: "Osaka-mono", Monospace;
+            line-height: 1.5em;
+            display:table-cell;
+            white-space: pre-wrap;       /* css-3 */
+            white-space: -moz-pre-wrap !important;  /* Mozilla, since 1999 */
+            white-space: -pre-wrap;      /* Opera 4-6 */
+            white-space: -o-pre-wrap;    /* Opera 7 */
+            word-wrap: break-word;       /* Internet Explorer 5.5+ */
+            width: 99%;   /* remove horizontal scroll-bar when viewing in IE7 */
+         }
+         .sikuli-code img {
+            vertical-align: middle;
+            margin: 2px;
+            border: 1px solid #ccc;
+            padding: 2px;
+            -moz-border-radius: 5px;
+            -webkit-border-radius: 5px;
+            -moz-box-shadow: 1px 1px 1px gray;
+            -webkit-box-shadow: 1px 1px 2px gray;
+         }
+         .kw {
+            color: blue;
+         }
+         .skw {
+            color: rgb(63, 127, 127);
+         }
+
+         .str {
+            color: rgb(128, 0, 0);
+         }
+
+         .dig {
+            color: rgb(128, 64, 0);
+         }
+
+         .cmt {
+            color: rgb(200, 0, 200);
+         }
+
+         h2 {
+            display: inline;
+            font-weight: normal;
+         }
+
+         .info {
+            border-bottom: 1px solid #ddd;
+            padding-bottom: 5px;
+            margin-bottom: 20px;
+            display: none;
+         }
+
+         a {
+            color: #9D2900;
+         }
+
+         body {
+            font-family: "Trebuchet MS", Arial, Sans-Serif;
+         }
+
+      </style>
+   </head>
+<body>
+<div class="info">
+<h2>SkipGPUWarning-WipeCache-160411-VVD-0.2.sikuli</h2> <a href="SkipGPUWarning-WipeCache-160411-VVD-0.2.zip">(Download this script)</a>
+</div>
+<pre class="sikuli-code">
+<span class="kw">import</span> logging;reload(logging)
+FORMAT=<span class="str">"%(asctime) -8s%(message)s"</span>
+
+logging.basicConfig(format=FORMAT, filename=<span class="str">"Win10-test.log"</span>, level=logging.DEBUG)
+
+<span class="skw">wait</span>(<span class="dig">1</span>)
+openApp(<span class="str">"C:\Users\Tygron\AppData\Local\Tygron Engine Test\Tygron Engine Test.exe"</span>)
+<span class="skw">wait</span>(<img src="1458723954770.png" />,<span class="dig">10</span>)
+<span class="skw">dragDrop</span>(Pattern(<img src="1459934558117.png" />).targetOffset(<span class="dig">262</span>,-<span class="dig">127</span>), Pattern(<img src="1459934563949.png" />).targetOffset(-<span class="dig">289</span>,-<span class="dig">120</span>))
+<span class="skw">type</span>(Key.BACKSPACE)
+paste(Pattern(<img src="1458723997314-1.png" />).targetOffset(<span class="dig">2</span>,-<span class="dig">119</span>),<span class="str">"qaautotest1@tygron.com"</span>)
+paste(Pattern(<img src="1458723997314-1.png" />).targetOffset(<span class="dig">2</span>,-<span class="dig">62</span>),<span class="str">"autotest1qa"</span>)
+<span class="skw">click</span>(Pattern(<img src="1458724253575.png" />).targetOffset(-<span class="dig">1</span>,<span class="dig">47</span>))
+<span class="kw">if</span> <span class="kw">not</span> exists(<img src="1460553626153.png" />, <span class="dig">3</span>):
+    <span class="kw">print</span>(<span class="str">"[warning]ATI FirePro is finally recognized, or something is off?"</span>)
+    logging.info(<span class="str">"[warning]ATI FirePro is finally recognized, or something is off?"</span>)
+    <span class="kw">print</span>(<span class="str">"[message]Please check, and update test if needed!"</span>)
+    logging.debug(<span class="str">"[message]Please check, and update test if needed!"</span>)
+    <span class="cmt">#exit(1)</span>
+<span class="kw">else</span>:
+    <span class="kw">print</span>(<span class="str">"[success]ATI FirePro is correctly flagged!"</span>)
+    logging.info(<span class="str">"[success]ATI FirePro is correctly flagged!"</span>)
+    <span class="skw">click</span>(Pattern(<img src="1460553626153.png" />).targetOffset(-<span class="dig">81</span>,<span class="dig">141</span>))
+    <span class="skw">click</span>(Pattern(<img src="1460553626153.png" />).targetOffset(-<span class="dig">90</span>,<span class="dig">185</span>))
+<span class="skw">wait</span>(<img src="1460631665598.png" />, <span class="dig">30</span>)
+<span class="skw">click</span>()
+<span class="skw">wait</span>(<img src="1460640845593.png" />)
+<span class="skw">click</span>()
+<span class="skw">wait</span>(<img src="1458724590165.png" />)
+<span class="skw">click</span>(<img src="1460536225935.png" />)
+waitVanish(Pattern(<img src="1458724481310.png" />).targetOffset(<span class="dig">70</span>,-<span class="dig">96</span>),<span class="dig">10</span>)
+openApp(<span class="str">"C:\Users\Tygron\AppData\Local\Tygron Engine Test\Tygron Engine Test.exe"</span>)
+<span class="kw">if</span> <span class="kw">not</span> exists(<img src="1458724821987.png" />, <span class="dig">30</span>):
+    <span class="kw">print</span>(<span class="str">"[error]Cache NOT deleted!"</span>)
+    logging.error(<span class="str">"[error]Cache NOT deleted!"</span>)
+    exit(<span class="dig">1</span>)
+<span class="kw">else</span>:
+    <span class="kw">print</span>(<span class="str">"[succes]Cache was deleted!"</span>)
+    logging.info(<span class="str">"[succes]Cache was deleted!"</span>)
+<span class="skw">click</span>(Pattern(<img src="1458724821987.png" />).targetOffset(-<span class="dig">168</span>,<span class="dig">244</span>))
+<span class="skw">wait</span>(<img src="1458724866547.png" />,<span class="dig">5</span>)
+<span class="skw">click</span>(Pattern(<img src="1458724882027.png" />).targetOffset(-<span class="dig">1</span>,<span class="dig">286</span>))
+<span class="skw">wait</span>(<img src="1458723954770.png" />,<span class="dig">10</span>)
+paste(Pattern(<img src="1458723997314-2.png" />).targetOffset(<span class="dig">2</span>,-<span class="dig">119</span>),<span class="str">"qaautotest1@tygron.com"</span>)
+paste(Pattern(<img src="1458723997314-2.png" />).targetOffset(<span class="dig">2</span>,-<span class="dig">62</span>),<span class="str">"autotest1qa"</span>)
+<span class="skw">click</span>(Pattern(<img src="1458724253575.png" />).targetOffset(-<span class="dig">1</span>,<span class="dig">47</span>))
+<span class="cmt">#wait("1460553626153.png", 5)</span>
+<span class="kw">if</span> <span class="kw">not</span> exists(<img src="1460553626153.png" />):
+    <span class="kw">print</span>(<span class="str">"[warning]ATI FirePro is finally recognized, or something is off?"</span>)
+    logging.info(<span class="str">"[warning]ATI FirePro is finally recognized, or something is off?"</span>)
+    <span class="kw">print</span>(<span class="str">"[message]Please check, and update test if needed!"</span>)
+    logging.debug(<span class="str">"[message]Please check, and update test if needed!"</span>)
+    exit(<span class="dig">1</span>)
+<span class="kw">else</span>:
+    <span class="kw">print</span>(<span class="str">"[success]ATI FirePro is correctly flagged!"</span>)
+    logging.info(<span class="str">"[success]ATI FirePro is correctly flagged!"</span>)
+<span class="skw">click</span>(Pattern(<img src="1460553626153.png" />).targetOffset(-<span class="dig">81</span>,<span class="dig">141</span>))
+<span class="skw">click</span>(Pattern(<img src="1460553626153.png" />).targetOffset(-<span class="dig">90</span>,<span class="dig">185</span>))
+<span class="skw">wait</span>(<img src="1460631813213.png" />,<span class="dig">10</span>)
+<span class="skw">click</span>()
+<span class="skw">wait</span>(<img src="1458725104634.png" />,<span class="dig">5</span>)
+paste(<img src="1458725139720.png" />,<span class="str">"WWWWWWWWWWtestWWWWWWW"</span>)
+<span class="skw">click</span>(Pattern(<img src="1458725384175.png" />).targetOffset(<span class="dig">233</span>,<span class="dig">11</span>))
+<span class="skw">wait</span>(<img src="1458726098136.png" />,<span class="dig">5</span>)
+<span class="kw">if</span> <span class="kw">not</span> exists(<img src="1458726098136.png" />):
+    <span class="kw">print</span>(<span class="str">"[error]Project name too long, but not flagged!"</span>)
+    logging.error(<span class="str">"[error]Project name too long, but not flagged!"</span>)
+    exit(<span class="dig">1</span>)
+<span class="kw">else</span>:
+    <span class="kw">print</span>(<span class="str">"[success]Correctly refused project name that was too long!"</span>)
+    logging.info(<span class="str">"[success]Correctly refused project name that was too long!"</span>)
+<span class="skw">click</span>(Pattern(<img src="1458726124601.png" />).targetOffset(<span class="dig">219</span>,<span class="dig">311</span>))
+<span class="skw">wait</span>(<img src="1460631813213.png" />,<span class="dig">10</span>)
+<span class="skw">click</span>()
+<span class="skw">wait</span>(<img src="1458725104634.png" />,<span class="dig">5</span>)
+paste(<img src="1458725139720.png" />,<span class="str">"SikuliX-test-W10-ATI"</span>)
+<span class="skw">click</span>(Pattern(<img src="1458725384175.png" />).targetOffset(<span class="dig">233</span>,<span class="dig">11</span>))
+<span class="skw">wait</span>(<img src="1458726352431.png" />)
+paste(Pattern(<img src="1458726375991.png" />).targetOffset(-<span class="dig">183</span>,-<span class="dig">154</span>),<span class="str">"Baarn"</span>)
+<span class="skw">type</span>(Key.ENTER)
+<span class="cmt">#wait("1458726456887.png",10)</span>
+<span class="kw">if</span> <span class="kw">not</span> exists(<img src="1458726456887.png" />, <span class="dig">10</span>):
+    <span class="kw">print</span>(<span class="str">"[error]The search function did not find Baarn!"</span>)
+    logging.error(<span class="str">"[error]The search function did not find Baarn!"</span>)
+    exit(<span class="dig">1</span>)
+<span class="kw">else</span>:
+    <span class="kw">print</span>(<span class="str">"[success]The search function navigated to the desired location Baarn!"</span>)
+    logging.info(<span class="str">"[success]The search function navigated to the desired location Baarn!"</span>)
+<span class="skw">dragDrop</span>(Pattern(<img src="1458726494637.png" />).targetOffset(-<span class="dig">73</span>,-<span class="dig">1</span>), Pattern(<img src="1458726536957.png" />).targetOffset(<span class="dig">18</span>,-<span class="dig">2</span>))
+<span class="skw">wait</span>(<img src="1458726625932.png" />,<span class="dig">10</span>)
+<span class="skw">click</span>(Pattern(<img src="1458726645205.png" />).targetOffset(<span class="dig">418</span>,<span class="dig">297</span>))
+
+waittime = <span class="dig">1</span>
+<span class="kw">for</span> x <span class="kw">in</span> range(<span class="dig">0</span>, <span class="dig">360</span>):
+    <span class="kw">if</span> exists(<img src="1458727002793.png" />, waittime):
+        <span class="kw">print</span>(<span class="str">"[success]The wizard has finished creating a 3kmx3km map of rural Baarn in %d seconds!"</span> % (x*waittime))
+        logging.info(<span class="str">"[success]The wizard has finished creating a 3kmx3km map of rural Baarn in %d seconds!"</span> % (x*waittime))
+        <span class="kw">break</span>
+
+<span class="kw">if</span> <span class="kw">not</span> exists(<img src="1458727002793.png" />, waittime):
+    <span class="kw">print</span>(<span class="str">"[error]The wizard process was not finished (in %d seconds)!"</span> % (x*waittime))
+    logging.error(<span class="str">"[error]The wizard process was not finished (in %d seconds)!"</span> % (x*waittime))
+    exit(<span class="dig">1</span>)
+
+<span class="skw">click</span>(Pattern(<img src="1458727031225.png" />).targetOffset(-<span class="dig">111</span>,-<span class="dig">174</span>))
+<span class="skw">wait</span>(<img src="1458727053769.png" />,<span class="dig">5</span>)
+<span class="skw">click</span>(Pattern(<img src="1458727053769.png" />).targetOffset(-<span class="dig">19</span>,<span class="dig">91</span>))
+<span class="skw">wait</span>(<img src="1458727121384.png" />,<span class="dig">5</span>)
+<span class="skw">click</span>(Pattern(<img src="1458727121384.png" />).targetOffset(<span class="dig">49</span>,<span class="dig">60</span>))
+waitVanish(<img src="1458727053769.png" />,<span class="dig">5</span>)
+openApp(<span class="str">"C:\Users\Tygron\AppData\Local\Tygron Engine Test\Tygron Engine Test.exe"</span>)
+<span class="skw">wait</span>(<img src="1458723954770.png" />,<span class="dig">10</span>)
+<span class="cmt">#paste(Pattern("1458723997314-3.png").targetOffset(2,-119),"qaautotest1@tygron.com")</span>
+paste(Pattern(<img src="1458723997314-3.png" />).targetOffset(<span class="dig">2</span>,-<span class="dig">62</span>),<span class="str">"autotest1qa"</span>)
+<span class="skw">click</span>(Pattern(<img src="1458724253575.png" />).targetOffset(-<span class="dig">1</span>,<span class="dig">47</span>))
+<span class="kw">if</span> exists(<img src="1460553626153.png" />):
+    <span class="skw">click</span>(Pattern(<img src="1460553626153.png" />).targetOffset(-<span class="dig">81</span>,<span class="dig">141</span>))
+    <span class="skw">click</span>(Pattern(<img src="1460553626153.png" />).targetOffset(-<span class="dig">90</span>,<span class="dig">185</span>))
+<span class="skw">wait</span>(<img src="1460538469559.png" />,<span class="dig">30</span>)
+<span class="skw">click</span>()
+<span class="skw">wait</span>(<img src="1458727294464.png" />)
+<span class="skw">click</span>(Pattern(<img src="1458727307210.png" />).targetOffset(<span class="dig">812</span>,-<span class="dig">495</span>))
+</pre>
+</body>
+</html>
