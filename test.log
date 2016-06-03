@@ -1,0 +1,530 @@
+2016-05-31 10:01:41,127 [info]===== Start test suite 3 =====
+2016-05-31 10:01:41,316 [info]===== (Re)Start selected engine =====
+2016-05-31 10:01:41,739 [info] Windows 6.1 detected!
+2016-05-31 10:01:41,773 [info] Tygron Engine Test selected...
+2016-05-31 10:01:48,114 [success] Engine started!
+2016-05-31 10:01:48,115 [info]===== Selected engine (re)started! =====
+2016-05-31 10:01:48,289[info]===== Logging on to selected engine =====
+2016-05-31 10:02:11,423[error] Log on failed!
+2016-05-31 10:02:11,605[info]===== Uploading first set of custom assets =====
+2016-05-31 10:02:37,645[error] The project was not created as expected!
+2016-05-31 10:02:37,799 [info]===== (Re)Start selected engine =====
+2016-05-31 10:02:37,801 [info] Windows 6.1 detected!
+2016-05-31 10:02:37,808 [info] Tygron Engine Test selected...
+2016-05-31 10:02:44,211 [success] Engine started!
+2016-05-31 10:02:44,213 [info]===== Selected engine (re)started! =====
+2016-05-31 10:02:44,332[info]===== Logging on to selected engine =====
+2016-05-31 10:03:08,002[error] Log on failed!
+2016-05-31 10:03:08,138[info]===== Starting a SP session and check for original custom assets =====
+2016-05-31 10:03:47,505 [info]===== (Re)Start selected engine =====
+2016-05-31 10:03:47,506 [info] Windows 6.1 detected!
+2016-05-31 10:03:47,523 [info] Tygron Engine Test selected...
+2016-05-31 10:03:55,388 [error] Engine not started!
+2016-05-31 10:03:55,542[info]===== Logging on to selected engine =====
+2016-05-31 10:03:58,871[info]===== Uploading updated set of custom assets =====
+2016-05-31 10:04:14,157 [info]===== (Re)Start selected engine =====
+2016-05-31 10:04:14,158 [info] Windows 6.1 detected!
+2016-05-31 10:04:14,164 [info] Tygron Engine Test selected...
+2016-05-31 10:04:21,401 [error] Engine not started!
+2016-05-31 10:04:21,542[info]===== Logging on to selected engine =====
+2016-05-31 10:04:24,742[info]===== Starting a saved SP session and check for original custom assets =====
+2016-05-31 10:04:35,259 [info]===== (Re)Start selected engine =====
+2016-05-31 10:04:35,262 [info] Windows 6.1 detected!
+2016-05-31 10:04:35,267 [info] Tygron Engine Test selected...
+2016-05-31 10:04:55,946 [info]===== Start test suite 3 =====
+2016-05-31 10:04:56,059 [info]===== (Re)Start selected engine =====
+2016-05-31 10:04:56,061 [info] Windows 6.1 detected!
+2016-05-31 10:04:56,068 [info] Tygron Engine Test selected...
+2016-05-31 10:05:03,555 [error] Engine not started!
+2016-05-31 10:05:03,700[info]===== Logging on to selected engine =====
+2016-05-31 10:05:07,009[info]===== Uploading first set of custom assets =====
+2016-05-31 10:05:10,240 [info]===== (Re)Start selected engine =====
+2016-05-31 10:05:10,242 [info] Windows 6.1 detected!
+2016-05-31 10:05:10,247 [info] Tygron Engine Test selected...
+2016-05-31 10:12:33,480 [info]===== Start test suite 3 =====
+2016-05-31 10:12:33,598 [info]===== (Re)Start selected engine =====
+2016-05-31 10:12:33,598 [info] Windows 6.1 detected!
+2016-05-31 10:12:33,605 [info] Tygron Engine Test selected...
+2016-05-31 10:12:39,709 [success] Engine started!
+2016-05-31 10:12:39,710 [info]===== Selected engine (re)started! =====
+2016-05-31 10:12:39,825[info]===== Logging on to selected engine =====
+2016-05-31 10:12:46,480[success] Log on succesfull!
+2016-05-31 10:12:46,480[info]===== Finished logging on to selected engine =====
+2016-05-31 10:12:46,624[info]===== Uploading first set of custom assets =====
+2016-05-31 10:13:11,815[error] The project was not created as expected!
+2016-05-31 10:13:11,943 [info]===== (Re)Start selected engine =====
+2016-05-31 10:13:11,944 [info] Windows 6.1 detected!
+2016-05-31 10:13:11,959 [info] Tygron Engine Test selected...
+2016-05-31 10:57:21,322 [info]===== Start test suite 4 =====
+2016-05-31 10:57:21,447 [info]===== (Re)Start selected engine =====
+2016-05-31 10:57:21,448 [info] Windows 6.1 detected!
+2016-05-31 10:57:21,454 [info] Tygron Engine Test selected...
+2016-05-31 10:57:27,528 [success] Engine started!
+2016-05-31 10:57:27,529 [info]===== Selected engine (re)started! =====
+2016-05-31 10:57:27,674[info]===== Logging on to selected engine =====
+2016-05-31 10:57:34,341[success] Log on succesfull!
+2016-05-31 10:57:34,342[info]===== Finished logging on to selected engine =====
+2016-05-31 11:01:25,006 [info]===== Start test suite 4 =====
+2016-05-31 11:01:25,131 [info]===== (Re)Start selected engine =====
+2016-05-31 11:01:25,131 [info] Windows 6.1 detected!
+2016-05-31 11:01:25,138 [info] Tygron Engine Test selected...
+2016-05-31 11:01:31,263 [success] Engine started!
+2016-05-31 11:01:31,263 [info]===== Selected engine (re)started! =====
+2016-05-31 11:01:31,368[info]===== Logging on to selected engine =====
+2016-05-31 11:01:38,039[success] Log on succesfull!
+2016-05-31 11:01:38,040[info]===== Finished logging on to selected engine =====
+2016-05-31 11:01:42,201[error] Project not loaded in 0 seconds!
+2016-05-31 11:03:51,173 [info]===== Start test suite 4 =====
+2016-05-31 11:03:51,299 [info]===== (Re)Start selected engine =====
+2016-05-31 11:03:51,299 [info] Windows 6.1 detected!
+2016-05-31 11:03:51,306 [info] Tygron Engine Test selected...
+2016-05-31 11:03:57,401 [success] Engine started!
+2016-05-31 11:03:57,401 [info]===== Selected engine (re)started! =====
+2016-05-31 11:03:57,513[info]===== Logging on to selected engine =====
+2016-05-31 11:04:04,249[success] Log on succesfull!
+2016-05-31 11:04:04,249[info]===== Finished logging on to selected engine =====
+2016-05-31 11:04:08,210[error] Project not loaded in 0 seconds!
+2016-05-31 11:05:10,946 [info]===== Start test suite 4 =====
+2016-05-31 11:05:11,055 [info]===== (Re)Start selected engine =====
+2016-05-31 11:05:11,055 [info] Windows 6.1 detected!
+2016-05-31 11:05:11,061 [info] Tygron Engine Test selected...
+2016-05-31 11:05:17,209 [success] Engine started!
+2016-05-31 11:05:17,210 [info]===== Selected engine (re)started! =====
+2016-05-31 11:05:17,315[info]===== Logging on to selected engine =====
+2016-05-31 11:05:23,967[success] Log on succesfull!
+2016-05-31 11:05:23,970[info]===== Finished logging on to selected engine =====
+2016-05-31 11:05:27,936[error] Project not loaded in 0 seconds!
+2016-05-31 11:06:15,137 [info]===== Start test suite 4 =====
+2016-05-31 11:06:15,237 [info]===== (Re)Start selected engine =====
+2016-05-31 11:06:15,239 [info] Windows 6.1 detected!
+2016-05-31 11:06:15,244 [info] Tygron Engine Test selected...
+2016-05-31 11:06:21,344 [success] Engine started!
+2016-05-31 11:06:21,344 [info]===== Selected engine (re)started! =====
+2016-05-31 11:06:21,450[info]===== Logging on to selected engine =====
+2016-05-31 11:06:28,121[success] Log on succesfull!
+2016-05-31 11:06:28,122[info]===== Finished logging on to selected engine =====
+2016-05-31 11:06:32,066[error] Project not loaded in 0 seconds!
+2016-05-31 11:21:23,563 [info]===== Start test suite 4 =====
+2016-05-31 11:21:23,671 [info]===== (Re)Start selected engine =====
+2016-05-31 11:21:23,673 [info] Windows 6.1 detected!
+2016-05-31 11:21:23,677 [info] Tygron Engine Test selected...
+2016-05-31 11:21:29,776 [success] Engine started!
+2016-05-31 11:21:29,776 [info]===== Selected engine (re)started! =====
+2016-05-31 11:21:29,875[info]===== Logging on to selected engine =====
+2016-05-31 11:21:36,625[success] Log on succesfull!
+2016-05-31 11:21:36,627[info]===== Finished logging on to selected engine =====
+2016-05-31 11:21:41,168[error] Project not loaded in 0 seconds!
+2016-05-31 11:21:43,665[error] Project not loaded in 1 seconds!
+2016-05-31 11:21:47,930[error] Project not loaded in 2 seconds!
+2016-05-31 11:21:54,497[error] Project not loaded in 3 seconds!
+2016-05-31 11:21:58,000[success] Project loaded in 4 seconds!
+2016-05-31 11:25:43,273 [info]===== Start test suite 4 =====
+2016-05-31 11:25:43,359 [info]===== (Re)Start selected engine =====
+2016-05-31 11:25:43,361 [info] Windows 6.1 detected!
+2016-05-31 11:25:43,368 [info] Tygron Engine Test selected...
+2016-05-31 11:25:49,471 [success] Engine started!
+2016-05-31 11:25:49,473 [info]===== Selected engine (re)started! =====
+2016-05-31 11:25:49,562[info]===== Logging on to selected engine =====
+2016-05-31 11:25:56,173[success] Log on succesfull!
+2016-05-31 11:25:56,174[info]===== Finished logging on to selected engine =====
+2016-05-31 11:26:00,611[error] Project not loaded in 0 seconds!
+2016-05-31 11:26:02,944[error] Project not loaded in 1 seconds!
+2016-05-31 11:26:07,640[error] Project not loaded in 2 seconds!
+2016-05-31 11:26:14,716[error] Project not loaded in 3 seconds!
+2016-05-31 11:34:22,674 [info]===== Start test suite 4 =====
+2016-05-31 11:34:22,766 [info]===== (Re)Start selected engine =====
+2016-05-31 11:34:22,767 [info] Windows 6.1 detected!
+2016-05-31 11:34:22,779 [info] Tygron Engine Test selected...
+2016-05-31 11:34:28,898 [success] Engine started!
+2016-05-31 11:34:28,898 [info]===== Selected engine (re)started! =====
+2016-05-31 11:34:28,996[info]===== Logging on to selected engine =====
+2016-05-31 11:34:35,776[success] Log on succesfull!
+2016-05-31 11:34:35,778[info]===== Finished logging on to selected engine =====
+2016-05-31 11:34:39,964[error] Project not loaded in 0 seconds!
+2016-05-31 11:35:32,453 [info]===== Start test suite 4 =====
+2016-05-31 11:35:32,545 [info]===== (Re)Start selected engine =====
+2016-05-31 11:35:32,546 [info] Windows 6.1 detected!
+2016-05-31 11:35:32,552 [info] Tygron Engine Test selected...
+2016-05-31 11:35:38,674 [success] Engine started!
+2016-05-31 11:35:38,676 [info]===== Selected engine (re)started! =====
+2016-05-31 11:35:38,776[info]===== Logging on to selected engine =====
+2016-05-31 11:35:45,529[success] Log on succesfull!
+2016-05-31 11:35:45,530[info]===== Finished logging on to selected engine =====
+2016-05-31 11:36:05,723[success] Project loaded in 5 seconds!
+2016-05-31 11:48:21,625 [info]===== Start test suite 4 =====
+2016-05-31 11:48:21,723 [info]===== (Re)Start selected engine =====
+2016-05-31 11:48:21,724 [info] Windows 6.1 detected!
+2016-05-31 11:48:21,730 [info] Tygron Engine Test selected...
+2016-05-31 11:48:27,875 [success] Engine started!
+2016-05-31 11:48:27,875 [info]===== Selected engine (re)started! =====
+2016-05-31 11:48:27,986[info]===== Logging on to selected engine =====
+2016-05-31 11:48:34,717[success] Log on succesfull!
+2016-05-31 11:48:34,717[info]===== Finished logging on to selected engine =====
+2016-05-31 11:48:34,720[info] Load project QA-menus-SikuliX...
+2016-05-31 11:48:56,115[success] Project QA-menus-SikuliX loaded in 6 seconds!
+2016-05-31 11:48:56,183[info] Start testing Geo data tab...
+2016-05-31 11:48:57,200[info] Start testing Constructions...
+2016-05-31 11:48:58,394[success] Constructions dropdown menu appears as expected!
+2016-05-31 11:48:58,395[info] Add a building...
+2016-05-31 11:52:26,987 [info]===== Start test suite 4 =====
+2016-05-31 11:52:27,085 [info]===== (Re)Start selected engine =====
+2016-05-31 11:52:27,086 [info] Windows 6.1 detected!
+2016-05-31 11:52:27,092 [info] Tygron Engine Test selected...
+2016-05-31 11:52:33,213 [success] Engine started!
+2016-05-31 11:52:33,213 [info]===== Selected engine (re)started! =====
+2016-05-31 11:52:33,303[info]===== Logging on to selected engine =====
+2016-05-31 11:52:39,989[success] Log on succesfull!
+2016-05-31 11:52:39,990[info]===== Finished logging on to selected engine =====
+2016-05-31 11:52:39,993[info] Load project QA-menus-SikuliX...
+2016-05-31 11:53:02,000[success] Project QA-menus-SikuliX loaded in 5 seconds!
+2016-05-31 11:53:02,036[info] Start testing Geo data tab...
+2016-05-31 11:53:03,052[info] Start testing Constructions...
+2016-05-31 11:53:04,191[success] Constructions dropdown menu appears as expected!
+2016-05-31 11:53:04,193[info] Add a building...
+2016-05-31 11:57:49,482 [info]===== Start test suite 4 =====
+2016-05-31 11:57:49,578 [info]===== (Re)Start selected engine =====
+2016-05-31 11:57:49,579 [info] Windows 6.1 detected!
+2016-05-31 11:57:49,585 [info] Tygron Engine Test selected...
+2016-05-31 11:57:55,665 [success] Engine started!
+2016-05-31 11:57:55,665 [info]===== Selected engine (re)started! =====
+2016-05-31 11:57:55,759[info]===== Logging on to selected engine =====
+2016-05-31 11:58:02,510[success] Log on succesfull!
+2016-05-31 11:58:02,512[info]===== Finished logging on to selected engine =====
+2016-05-31 11:58:02,516[info] Load project QA-menus-SikuliX...
+2016-05-31 11:58:23,891[success] Project QA-menus-SikuliX loaded in 6 seconds!
+2016-05-31 11:58:23,920[info] Start testing Geo data tab...
+2016-05-31 11:58:24,943[info] Start testing Constructions...
+2016-05-31 11:58:26,138[success] Constructions dropdown menu appears as expected!
+2016-05-31 11:58:26,140[info] Add a building...
+2016-05-31 11:58:29,540[info] An empty building slot was added!
+2016-05-31 12:14:08,693 [info]===== Start test suite 3 =====
+2016-05-31 12:14:08,792 [info]===== (Re)Start selected engine =====
+2016-05-31 12:14:08,793 [info] Windows 6.1 detected!
+2016-05-31 12:14:08,799 [info] Tygron Engine Test selected...
+2016-05-31 12:14:14,937 [success] Engine started!
+2016-05-31 12:14:14,937 [info]===== Selected engine (re)started! =====
+2016-05-31 12:14:15,030[info]===== Logging on to selected engine =====
+2016-05-31 12:14:22,183[success] Log on succesfull!
+2016-05-31 12:14:22,184[info]===== Finished logging on to selected engine =====
+2016-05-31 12:14:22,322[info]===== Uploading first set of custom assets =====
+2016-05-31 12:14:41,240[success] An empty map has been created!
+2016-05-31 12:15:00,403[success] The custom stakeholder image was successfully added!
+2016-05-31 12:15:17,436[success] The custom action menu image was successfully added!
+2016-05-31 12:15:32,786[success] The custom measure image was successfully added!
+2016-05-31 12:15:41,970[success] The custom function value image was successfully added!
+2016-05-31 12:16:41,611[success] The custom overlay image was successfully added!
+2016-05-31 12:16:56,319[success] The excel indicator file was successfully added!
+2016-05-31 12:16:59,207[success] The excel indicator file shows the correct output!
+2016-05-31 12:17:08,851[success] The custom indicator image was successfully uploaded!
+2016-05-31 12:17:11,671[success] The custom indicator image was successfully added!
+2016-05-31 12:17:11,861[success] The custom indicator imappeared on the top bar as expected!
+2016-05-31 12:17:20,920[success] The project was saved and closed
+2016-05-31 12:17:20,920[info]===== Finished uploading first set of custom assets =====
+2016-05-31 12:17:21,022 [info]===== (Re)Start selected engine =====
+2016-05-31 12:17:21,023 [info] Windows 6.1 detected!
+2016-05-31 12:17:21,026 [info] Tygron Engine Test selected...
+2016-05-31 12:17:27,207 [success] Engine started!
+2016-05-31 12:17:27,207 [info]===== Selected engine (re)started! =====
+2016-05-31 12:17:27,306[info]===== Logging on to selected engine =====
+2016-05-31 12:17:34,028[success] Log on succesfull!
+2016-05-31 12:17:34,029[info]===== Finished logging on to selected engine =====
+2016-05-31 12:17:34,173[info]===== Starting a SP session and check for original custom assets =====
+2016-05-31 12:18:10,846[success] Action menu icon is correct!
+2016-05-31 12:18:19,967[success] Custom function image is present!
+2016-05-31 12:18:23,569[success] Stakeholder icon is correct!
+2016-05-31 12:18:25,265[success] Indicator icon is correct!
+2016-05-31 12:18:27,115[success] Excel indicator output is correct!
+2016-05-31 12:18:32,414[success] Session saved!
+2016-05-31 12:18:37,088[info]===== Ending/ saving a SP session with original custom assets =====
+2016-05-31 12:18:37,190 [info]===== (Re)Start selected engine =====
+2016-05-31 12:18:37,190 [info] Windows 6.1 detected!
+2016-05-31 12:18:37,196 [info] Tygron Engine Test selected...
+2016-05-31 12:18:43,331 [success] Engine started!
+2016-05-31 12:18:43,331 [info]===== Selected engine (re)started! =====
+2016-05-31 12:18:43,426[info]===== Logging on to selected engine =====
+2016-05-31 12:18:50,132[success] Log on succesfull!
+2016-05-31 12:18:50,134[info]===== Finished logging on to selected engine =====
+2016-05-31 12:18:50,252[info]===== Uploading updated set of custom assets =====
+2016-05-31 12:19:25,760[success] The custom stakeholder image was successfully added!
+2016-05-31 12:19:37,867[success] The custom action menu image was successfully added!
+2016-05-31 12:19:50,792[success] The custom measure image was successfully added!
+2016-05-31 12:19:53,391[success] The custom function value image was successfully added!
+2016-05-31 12:20:18,851[success] The image was uploaded as expected!
+2016-05-31 12:20:21,604[success] The custom overlay image was successfully added!
+2016-05-31 12:20:34,713[success] The excel indicator file shows the correct output!
+2016-05-31 12:20:45,213[success] The custom indicator image was successfully uploaded!
+2016-05-31 12:20:48,006[success] The custom indicator image was successfully added!
+2016-05-31 12:20:48,674[success] The custom indicator imappeared on the top bar as expected!
+2016-05-31 12:20:57,224[success] The updated project was saved and closed
+2016-05-31 12:20:57,224[info]===== Finished uploading updated set of custom assets =====
+2016-05-31 12:20:57,323 [info]===== (Re)Start selected engine =====
+2016-05-31 12:20:57,323 [info] Windows 6.1 detected!
+2016-05-31 12:20:57,328 [info] Tygron Engine Test selected...
+2016-05-31 12:21:03,467 [success] Engine started!
+2016-05-31 12:21:03,467 [info]===== Selected engine (re)started! =====
+2016-05-31 12:21:03,568[info]===== Logging on to selected engine =====
+2016-05-31 12:21:10,203[success] Log on succesfull!
+2016-05-31 12:21:10,203[info]===== Finished logging on to selected engine =====
+2016-05-31 12:21:10,309[info]===== Starting a saved SP session and check for original custom assets =====
+2016-05-31 12:21:45,687[success] Action menu icon is correct!
+2016-05-31 12:21:47,579[success] Custom function image is present!
+2016-05-31 12:21:52,424[success] Stakeholder icon is correct!
+2016-05-31 12:21:54,134[success] Indicator icon is correct!
+2016-05-31 12:21:56,145[success] Excel indicator output is correct!
+2016-05-31 12:22:02,140[info]===== Ending a saved SP session =====
+2016-05-31 12:22:02,240 [info]===== (Re)Start selected engine =====
+2016-05-31 12:22:02,240 [info] Windows 6.1 detected!
+2016-05-31 12:22:02,243 [info] Tygron Engine Test selected...
+2016-05-31 12:22:08,345 [success] Engine started!
+2016-05-31 12:22:08,345 [info]===== Selected engine (re)started! =====
+2016-05-31 12:22:08,433[info]===== Logging on to selected engine =====
+2016-05-31 12:22:15,174[success] Log on succesfull!
+2016-05-31 12:22:15,176[info]===== Finished logging on to selected engine =====
+2016-05-31 12:22:15,286[info]===== Remove asset test project =====
+2016-05-31 12:22:39,115[success] Project 'Sikulix-asset Test' has been found!
+2016-05-31 12:22:41,691[success] Instance 1 of project 'Sikulix-asset Test' has been removed!
+2016-05-31 12:23:33,934[success] All instances of project 'Sikulix-asset Test' has been removed!
+2016-05-31 12:23:35,049[info]===== Remove asset test project completed =====
+2016-05-31 12:23:35,150 [info]===== (Re)Start selected engine =====
+2016-05-31 12:23:35,151 [info] Windows 6.1 detected!
+2016-05-31 12:23:35,155 [info] Tygron Engine Test selected...
+2016-05-31 12:23:41,230 [success] Engine started!
+2016-05-31 12:23:41,232 [info]===== Selected engine (re)started! =====
+2016-05-31 12:23:41,328[info]===== Logging on to selected engine =====
+2016-05-31 12:23:48,063[success] Log on succesfull!
+2016-05-31 12:23:48,063[info]===== Finished logging on to selected engine =====
+2016-05-31 12:23:48,186 [info]===== Start Documentation links test =====
+2016-05-31 12:23:58,851 [success] Project SikuliX-menus-NL loaded in 3 seconds!
+2016-05-31 12:23:58,882 [info] Under Geo Data...
+2016-05-31 12:23:59,571 [info] For Constructions...
+2016-05-31 12:24:03,976 [error] Documentation not found!
+2016-05-31 12:24:05,657 [info] For Terrain...
+2016-05-31 12:24:06,927 [info]===== (Re)Start selected engine =====
+2016-05-31 12:24:06,927 [info] Windows 6.1 detected!
+2016-05-31 12:24:07,111 [info] Tygron Engine Test selected...
+2016-05-31 12:24:13,424 [success] Engine started!
+2016-05-31 12:24:13,424 [info]===== Selected engine (re)started! =====
+2016-05-31 12:24:13,522[info] >>>>>>>>>> Start JOIN_ONLY User Rights Test <<<<<<<<<<
+2016-05-31 12:24:31,509[info] >>>>>>>>>> Start HOST_SESSION User Rights Test <<<<<<<<<<
+2016-05-31 12:24:42,163[info] >>>>>>>>>> Start EDITOR User Rights Test <<<<<<<<<<
+2016-05-31 12:24:52,816[info] >>>>>>>>>> Start DOMAIN_ADMIN change to SUPER_USER User Rights Test <<<<<<<<<<
+2016-05-31 12:25:03,470[info] >>>>>>>>>> Start DOMAIN_ADMIN User Rights Test <<<<<<<<<<
+2016-05-31 12:25:14,085 [info]===== Removing stored value =====
+2016-05-31 12:25:14,085 [info]===== Stored value removed! =====
+2016-05-31 12:25:14,089 [info]===== End test suite 3 =====
+2016-05-31 12:41:58,348 [info]===== Start test suite 3 =====
+2016-05-31 12:41:58,456 [info]===== (Re)Start selected engine =====
+2016-05-31 12:42:00,381 [info] Windows 6.1 detected!
+2016-05-31 12:42:00,387 [info] Tygron Engine Test selected...
+2016-05-31 12:42:06,510 [success] Engine started!
+2016-05-31 12:42:06,512 [info]===== Selected engine (re)started! =====
+2016-05-31 12:42:06,607[info]===== Logging on to selected engine =====
+2016-05-31 12:42:13,487[success] Log on succesfull!
+2016-05-31 12:42:13,487[info]===== Finished logging on to selected engine =====
+2016-05-31 12:42:13,598[info]===== Uploading first set of custom assets =====
+2016-05-31 12:42:31,181[success] An empty map has been created!
+2016-05-31 12:43:10,999 [info]===== Start test suite 3 =====
+2016-05-31 12:43:11,095 [info]===== (Re)Start selected engine =====
+2016-05-31 12:43:11,096 [info] Windows 6.1 detected!
+2016-05-31 12:43:11,101 [info] Tygron Engine Test selected...
+2016-05-31 12:43:17,209 [success] Engine started!
+2016-05-31 12:43:17,209 [info]===== Selected engine (re)started! =====
+2016-05-31 12:43:17,311[info]===== Logging on to selected engine =====
+2016-05-31 12:43:23,967[success] Log on succesfull!
+2016-05-31 12:43:23,967[info]===== Finished logging on to selected engine =====
+2016-05-31 12:43:24,094[info]===== Uploading first set of custom assets =====
+2016-05-31 12:43:42,006[success] An empty map has been created!
+2016-05-31 12:44:00,671[success] The custom stakeholder image was successfully added!
+2016-05-31 12:44:17,529[success] The custom action menu image was successfully added!
+2016-05-31 12:44:32,844[success] The custom measure image was successfully added!
+2016-05-31 12:44:41,967[success] The custom function value image was successfully added!
+2016-05-31 12:45:41,482[success] The custom overlay image was successfully added!
+2016-05-31 12:45:56,296[success] The excel indicator file was successfully added!
+2016-05-31 12:45:58,592[success] The excel indicator file shows the correct output!
+2016-05-31 12:46:08,239[success] The custom indicator image was successfully uploaded!
+2016-05-31 12:46:11,049[success] The custom indicator image was successfully added!
+2016-05-31 12:46:11,250[success] The custom indicator imappeared on the top bar as expected!
+2016-05-31 12:46:20,209[success] The project was saved and closed
+2016-05-31 12:46:20,209[info]===== Finished uploading first set of custom assets =====
+2016-05-31 12:46:20,316 [info]===== (Re)Start selected engine =====
+2016-05-31 12:46:20,318 [info] Windows 6.1 detected!
+2016-05-31 12:46:20,322 [info] Tygron Engine Test selected...
+2016-05-31 12:46:26,482 [success] Engine started!
+2016-05-31 12:46:26,482 [info]===== Selected engine (re)started! =====
+2016-05-31 12:46:26,588[info]===== Logging on to selected engine =====
+2016-05-31 12:46:33,292[success] Log on succesfull!
+2016-05-31 12:46:33,293[info]===== Finished logging on to selected engine =====
+2016-05-31 12:46:33,414[info]===== Starting a SP session and check for original custom assets =====
+2016-05-31 12:47:06,548[success] Action menu icon is correct!
+2016-05-31 12:47:15,730[success] Custom function image is present!
+2016-05-31 12:47:19,250[success] Stakeholder icon is correct!
+2016-05-31 12:47:20,963[success] Indicator icon is correct!
+2016-05-31 12:47:22,973[success] Excel indicator output is correct!
+2016-05-31 12:47:27,457[success] Session saved!
+2016-05-31 12:47:32,137[info]===== Ending/ saving a SP session with original custom assets =====
+2016-05-31 12:47:32,236 [info]===== (Re)Start selected engine =====
+2016-05-31 12:47:32,236 [info] Windows 6.1 detected!
+2016-05-31 12:47:32,243 [info] Tygron Engine Test selected...
+2016-05-31 12:47:38,388 [success] Engine started!
+2016-05-31 12:47:38,388 [info]===== Selected engine (re)started! =====
+2016-05-31 12:47:38,483[info]===== Logging on to selected engine =====
+2016-05-31 12:47:45,272[success] Log on succesfull!
+2016-05-31 12:47:45,273[info]===== Finished logging on to selected engine =====
+2016-05-31 12:47:45,381[info]===== Uploading updated set of custom assets =====
+2016-05-31 12:48:16,414[success] The custom stakeholder image was successfully added!
+2016-05-31 12:48:28,621[success] The custom action menu image was successfully added!
+2016-05-31 12:48:41,549[success] The custom measure image was successfully added!
+2016-05-31 12:48:44,160[success] The custom function value image was successfully added!
+2016-05-31 12:49:09,592[success] The image was uploaded as expected!
+2016-05-31 12:49:12,394[success] The custom overlay image was successfully added!
+2016-05-31 12:49:25,644[success] The excel indicator file shows the correct output!
+2016-05-31 12:49:36,186[success] The custom indicator image was successfully uploaded!
+2016-05-31 12:49:38,971[success] The custom indicator image was successfully added!
+2016-05-31 12:49:39,165[success] The custom indicator imappeared on the top bar as expected!
+2016-05-31 12:49:48,519[success] The updated project was saved and closed
+2016-05-31 12:49:48,519[info]===== Finished uploading updated set of custom assets =====
+2016-05-31 12:49:48,612 [info]===== (Re)Start selected engine =====
+2016-05-31 12:49:48,614 [info] Windows 6.1 detected!
+2016-05-31 12:49:48,618 [info] Tygron Engine Test selected...
+2016-05-31 12:49:54,755 [success] Engine started!
+2016-05-31 12:49:54,755 [info]===== Selected engine (re)started! =====
+2016-05-31 12:49:54,849[info]===== Logging on to selected engine =====
+2016-05-31 12:50:01,559[success] Log on succesfull!
+2016-05-31 12:50:01,561[info]===== Finished logging on to selected engine =====
+2016-05-31 12:50:01,667[info]===== Starting a saved SP session and check for original custom assets =====
+2016-05-31 12:50:37,259[success] Action menu icon is correct!
+2016-05-31 12:50:39,153[success] Custom function image is present!
+2016-05-31 12:50:43,811[success] Stakeholder icon is correct!
+2016-05-31 12:50:45,516[success] Indicator icon is correct!
+2016-05-31 12:50:47,556[success] Excel indicator output is correct!
+2016-05-31 12:50:53,563[info]===== Ending a saved SP session =====
+2016-05-31 12:50:53,661 [info]===== (Re)Start selected engine =====
+2016-05-31 12:50:53,661 [info] Windows 6.1 detected!
+2016-05-31 12:50:53,665 [info] Tygron Engine Test selected...
+2016-05-31 12:50:59,766 [success] Engine started!
+2016-05-31 12:50:59,766 [info]===== Selected engine (re)started! =====
+2016-05-31 12:50:59,858[info]===== Logging on to selected engine =====
+2016-05-31 12:51:06,571[success] Log on succesfull!
+2016-05-31 12:51:06,572[info]===== Finished logging on to selected engine =====
+2016-05-31 12:51:06,667[info]===== Remove asset test project =====
+2016-05-31 12:51:30,660[success] Project 'Sikulix-asset Test' has been found!
+2016-05-31 12:51:33,236[success] Instance 1 of project 'Sikulix-asset Test' has been removed!
+2016-05-31 12:52:25,440[success] All instances of project 'Sikulix-asset Test' has been removed!
+2016-05-31 12:52:26,562[info]===== Remove asset test project completed =====
+2016-05-31 12:52:26,663 [info]===== (Re)Start selected engine =====
+2016-05-31 12:52:26,663 [info] Windows 6.1 detected!
+2016-05-31 12:52:26,667 [info] Tygron Engine Test selected...
+2016-05-31 12:52:32,790 [success] Engine started!
+2016-05-31 12:52:32,790 [info]===== Selected engine (re)started! =====
+2016-05-31 12:52:32,888[info]===== Logging on to selected engine =====
+2016-05-31 12:52:39,519[success] Log on succesfull!
+2016-05-31 12:52:39,519[info]===== Finished logging on to selected engine =====
+2016-05-31 12:52:39,637 [info]===== Start Documentation links test =====
+2016-05-31 12:52:50,325 [success] Project SikuliX-menus-NL loaded in 3 seconds!
+2016-05-31 12:52:50,358 [info] Under Geo Data...
+2016-05-31 12:52:51,049 [info] For Constructions...
+2016-05-31 12:52:55,006 [error] Documentation not found!
+2016-05-31 12:52:57,448 [info] For Terrain...
+2016-05-31 12:53:01,305 [error] Documentation not written yet!
+2016-05-31 12:53:03,269 [info] For Zoning...
+2016-05-31 12:53:10,040 [success] Documentation is available!
+2016-05-31 12:53:11,776 [info] For Plots...
+2016-05-31 12:53:14,983 [error] Documentation not written yet!
+2016-05-31 12:53:16,964 [info] For Areas...
+2016-05-31 12:53:20,663 [error] Documentation not written yet!
+2016-05-31 12:53:22,594 [info] For Overlays...
+2016-05-31 12:53:29,448 [success] Documentation is available!
+2016-05-31 12:53:31,767 [info] Under Stakeholders...
+2016-05-31 12:53:32,471 [info] For Stakeholders...
+2016-05-31 12:53:39,437 [success] Documentation is available!
+2016-05-31 12:53:41,411 [info] For Actions...
+2016-05-31 12:53:47,888 [success] Documentation is available!
+2016-05-31 12:53:49,757 [info] For Measures...
+2016-05-31 12:53:56,447 [success] Documentation is available!
+2016-05-31 12:53:58,424 [info] For Dike Types...
+2016-05-31 12:54:05,256 [success] Documentation is available!
+2016-05-31 12:54:07,187 [info] For Upgrade Types...
+2016-05-31 12:54:11,322 [error] Documentation not found!
+2016-05-31 12:54:13,417 [info] For Event Bundles...
+2016-05-31 12:54:20,305 [success] Documentation is available!
+2016-05-31 12:54:22,835 [info] For Indicators...
+2016-05-31 12:54:29,293 [success] Documentation is available!
+2016-05-31 12:54:31,273 [info] For Function Values...
+2016-05-31 12:54:37,707 [success] Documentation is available!
+2016-05-31 12:54:39,713 [info] For Globals...
+2016-05-31 12:54:42,753 [error] Documentation not written yet!
+2016-05-31 12:54:44,696 [info] For Query Tool...
+2016-05-31 12:54:51,634 [success] Documentation is available!
+2016-05-31 12:54:54,184 [info] For Cinematics...
+2016-05-31 12:55:01,223 [success] Documentation is available!
+2016-05-31 12:55:03,279 [info] For Special Effects...
+2016-05-31 12:55:06,947 [error] Documentation not written yet!
+2016-05-31 12:55:08,911 [info] For Units...
+2016-05-31 12:55:12,309 [error] Documentation not written yet!
+2016-05-31 12:55:14,267 [info] For Weather...
+2016-05-31 12:55:20,696 [success] Documentation is available!
+2016-05-31 12:55:22,657 [info] For Environment...
+2016-05-31 12:55:26,423 [error] Documentation not written yet!
+2016-05-31 12:55:29,559 [info] For Levels...
+2016-05-31 12:55:36,153 [success] Documentation is available!
+2016-05-31 12:55:38,032 [info] For Timeline...
+2016-05-31 12:55:41,648 [error] Documentation not written yet!
+2016-05-31 12:55:43,588 [info] For Messages...
+2016-05-31 12:55:50,786 [success] Documentation is available!
+2016-05-31 12:55:53,280 [info] For Panels...
+2016-05-31 12:55:56,778 [error] Documentation not written yet!
+2016-05-31 12:55:58,801 [info] For Screenshot...
+2016-05-31 12:56:02,171 [error] Documentation not written yet!
+2016-05-31 12:56:04,153 [info] For Video...
+2016-05-31 12:56:07,181 [error] Documentation not written yet!
+2016-05-31 12:56:09,131 [info] For Free Cam...
+2016-05-31 12:56:12,257 [error] Documentation not written yet!
+2016-05-31 12:56:14,272 [info] For Api Overview...
+2016-05-31 12:56:20,838 [success] Documentation is available!
+2016-05-31 12:56:23,607 [info] For Wiki...
+2016-05-31 12:56:30,653 [success] Documentation is available!
+2016-05-31 12:56:34,194 [info]===== End Documentation links test =====
+2016-05-31 12:56:34,301 [info]===== (Re)Start selected engine =====
+2016-05-31 12:56:34,301 [info] Windows 6.1 detected!
+2016-05-31 12:56:34,305 [info] Tygron Engine Test selected...
+2016-05-31 12:56:40,384 [success] Engine started!
+2016-05-31 12:56:40,384 [info]===== Selected engine (re)started! =====
+2016-05-31 12:56:40,483[info] >>>>>>>>>> Start JOIN_ONLY User Rights Test <<<<<<<<<<
+2016-05-31 12:57:00,023[success] User was changed to JOIN_ONLY!
+2016-05-31 12:57:07,489[success] JOIN_ONLY access is correct!
+2016-05-31 12:57:10,332[info] >>>>>>>>>> End JOIN_ONLY User Rights Test <<<<<<<<<<
+2016-05-31 12:57:10,433[info] >>>>>>>>>> Start HOST_SESSION User Rights Test <<<<<<<<<<
+2016-05-31 12:57:25,079[success] User was changed to HOST_SESSION!
+2016-05-31 12:57:32,206[success] HOST_SESSION access is correct!
+2016-05-31 12:57:34,752[info] >>>>>>>>>> End HOST_SESSION User Rights Test <<<<<<<<<<
+2016-05-31 12:57:34,852[info] >>>>>>>>>> Start EDITOR User Rights Test <<<<<<<<<<
+2016-05-31 12:57:49,364[success] User was changed to EDITOR!
+2016-05-31 12:57:55,841[success] EDITOR access is correct!
+2016-05-31 12:57:58,338[info] >>>>>>>>>> End EDITOR User Rights Test <<<<<<<<<<
+2016-05-31 12:57:58,440[info] >>>>>>>>>> Start DOMAIN_ADMIN change to SUPER_USER User Rights Test <<<<<<<<<<
+2016-05-31 12:58:13,017[success] User was changed to DOMAIN_ADMIN!
+2016-05-31 12:58:20,724[success] DOMAIN_ADMIN access is correct!
+2016-05-31 12:58:23,227[info] >>>>>>>>>> End DOMAIN_ADMIN change to SUPER_USER User Rights Test <<<<<<<<<<
+2016-05-31 12:58:23,325[info] >>>>>>>>>> Start DOMAIN_ADMIN User Rights Test <<<<<<<<<<
+2016-05-31 12:58:38,184[success] User can not be changed to SUPER_USER by DOMAIN_ADMIN!
+2016-05-31 12:58:47,589[success] DOMAIN_ADMIN access is correct!
+2016-05-31 12:58:54,538[info] >>>>>>>>>> End DOMAIN_ADMIN User Rights Test <<<<<<<<<<
+2016-05-31 12:58:54,632 [info]===== Removing stored value =====
+2016-05-31 12:58:54,634 [info]===== Stored value removed! =====
+2016-05-31 12:58:54,637 [info]===== End test suite 3 =====
+2016-05-31 14:50:17,657 [info]===== Start test suite 4 =====
+2016-05-31 14:50:17,765 [info]===== (Re)Start selected engine =====
+2016-05-31 14:50:19,687 [info] Windows 6.1 detected!
+2016-05-31 14:50:19,691 [info] Tygron Engine Test selected...
+2016-05-31 14:50:25,819 [success] Engine started!
+2016-05-31 14:50:25,819 [info]===== Selected engine (re)started! =====
+2016-05-31 14:50:25,917[info]===== Logging on to selected engine =====
+2016-05-31 14:50:32,618[success] Log on succesfull!
+2016-05-31 14:50:32,618[info]===== Finished logging on to selected engine =====
+2016-05-31 14:50:32,621[info] Load project QA-menus-SikuliX...
+2016-05-31 14:50:55,496[success] Project QA-menus-SikuliX loaded in 6 seconds!
+2016-05-31 14:50:55,520[info] Start testing Geo data tab...
+2016-05-31 14:50:56,539[info] Start testing Constructions...
+2016-05-31 14:50:57,732[success] Constructions dropdown menu appears as expected!
+2016-05-31 14:50:57,733[info] Add a building...
+2016-05-31 14:51:01,219[info] An empty building slot was added!

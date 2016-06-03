@@ -1,0 +1,264 @@
+
+<html>
+   <head>
+      <style type="text/css">
+         .sikuli-code {
+            font-size: 20px;
+            font-family: "Osaka-mono", Monospace;
+            line-height: 1.5em;
+            display:table-cell;
+            white-space: pre-wrap;       /* css-3 */
+            white-space: -moz-pre-wrap !important;  /* Mozilla, since 1999 */
+            white-space: -pre-wrap;      /* Opera 4-6 */
+            white-space: -o-pre-wrap;    /* Opera 7 */
+            word-wrap: break-word;       /* Internet Explorer 5.5+ */
+            width: 99%;   /* remove horizontal scroll-bar when viewing in IE7 */
+         }
+         .sikuli-code img {
+            vertical-align: middle;
+            margin: 2px;
+            border: 1px solid #ccc;
+            padding: 2px;
+            -moz-border-radius: 5px;
+            -webkit-border-radius: 5px;
+            -moz-box-shadow: 1px 1px 1px gray;
+            -webkit-box-shadow: 1px 1px 2px gray;
+         }
+         .kw {
+            color: blue;
+         }
+         .skw {
+            color: rgb(63, 127, 127);
+         }
+
+         .str {
+            color: rgb(128, 0, 0);
+         }
+
+         .dig {
+            color: rgb(128, 64, 0);
+         }
+
+         .cmt {
+            color: rgb(200, 0, 200);
+         }
+
+         h2 {
+            display: inline;
+            font-weight: normal;
+         }
+
+         .info {
+            border-bottom: 1px solid #ddd;
+            padding-bottom: 5px;
+            margin-bottom: 20px;
+            display: none;
+         }
+
+         a {
+            color: #9D2900;
+         }
+
+         body {
+            font-family: "Trebuchet MS", Arial, Sans-Serif;
+         }
+
+      </style>
+   </head>
+<body>
+<div class="info">
+<h2>Multiplayer-Cg5-Client-PlayLVL2-160511-VVD-0.1.sikuli</h2> <a href="Multiplayer-Cg5-Client-PlayLVL2-160511-VVD-0.1.zip">(Download this script)</a>
+</div>
+<pre class="sikuli-code">
+<span class="kw">import</span> logging; reload(logging)
+FORMAT=(<span class="str">"%(asctime) -8s %(message) s"</span>)
+logging.basicConfig(format=FORMAT, filename=<span class="str">"TestLog.txt"</span>, level=logging.DEBUG)
+
+<span class="kw">print</span><span class="str">"[info] Play Level 2..."</span>
+logging.info(<span class="str">"[info] Play Level 2..."</span>)
+
+<span class="kw">if</span> Settings.isLinux() <span class="kw">or</span> Settings.isWindows():
+
+    Region(<span class="dig">1</span>,<span class="dig">1</span>,<span class="dig">429</span>,<span class="dig">100</span>)
+
+    <span class="cmt">################</span>
+    <span class="cmt"># Municipality #</span>
+    <span class="cmt">################</span>
+
+    <span class="kw">if</span> exists(Pattern(<img src="1463040139645.png" />).similar(<span class="dig">0.90</span>)):
+        <span class="kw">print</span><span class="str">"[info] Municipality will now perform actions in LVL2..."</span>
+        logging.info(<span class="str">"[info] Municipality will now perform actions in LVL2..."</span>)
+        Region(<span class="dig">0</span>,<span class="dig">0</span>,<span class="dig">1680</span>,<span class="dig">1050</span>)
+    <span class="cmt">##############</span>
+    <span class="cmt"># Waterboard #</span>
+    <span class="cmt">##############</span>
+
+    <span class="kw">elif</span> exists(Pattern(<img src="1463039840247.png" />).similar(<span class="dig">0.90</span>)):
+        <span class="kw">print</span><span class="str">"[info] Waterboard will now perform actions in LVL2..."</span>
+        logging.info(<span class="str">"[info] Waterboard will now perform actions in LVL2..."</span>)
+        Region(<span class="dig">0</span>,<span class="dig">0</span>,<span class="dig">1680</span>,<span class="dig">1050</span>)
+        loc = SCREEN.getCenter()
+        wheel(loc, WHEEL_DOWN, <span class="dig">4</span>)
+
+        <span class="cmt"># Propose water storage</span>
+        <span class="skw">click</span>(<img src="1463143734812.png" />)
+        <span class="skw">wait</span>(<img src="1463144399984.png" />)
+        <span class="skw">click</span>(<img src="1463143757604.png" />)
+        <span class="skw">click</span>()
+        <span class="skw">click</span>()
+        <span class="skw">wait</span>(<img src="1463145285817.png" />)
+        <span class="skw">click</span>()
+        <span class="skw">click</span>()
+        loc = SCREEN.getCenter()
+        <span class="skw">click</span>(loc)
+        <span class="skw">click</span>(<img src="1463143890923.png" />)
+        <span class="skw">click</span>(<img src="1463143950402.png" />)
+        <span class="skw">click</span>(<img src="1463144928028.png" />)
+        <span class="skw">click</span>(<img src="1463143912316.png" />)
+        <span class="skw">click</span>(<img src="1463143950402.png" />)
+        <span class="skw">wait</span>(Pattern(<img src="1463145164522.png" />).similar(<span class="dig">0.90</span>) ,FOREVER)
+        <span class="skw">click</span>()
+        <span class="skw">wait</span>(<img src="1463145189826.png" />)
+        <span class="skw">click</span>()
+
+        <span class="skw">click</span>(<img src="1463145749221.png" />)
+        <span class="kw">if</span> exists(Pattern(<img src="1463145784614.png" />).similar(<span class="dig">0.90</span>) , FOREVER):
+            <span class="skw">click</span>(<img src="1463145814317.png" />)
+            <span class="kw">print</span><span class="str">"[success] Waterstorage proposal has been constructed!"</span>
+            logging.info(<span class="str">"[success] Waterstorage proposal has been constructed!"</span>)
+        <span class="kw">else</span>:
+            <span class="kw">print</span><span class="str">"[error] Oops!"</span>
+            exit(<span class="dig">1</span>)
+
+    <span class="cmt">#######</span>
+    <span class="cmt"># SSH #</span>
+    <span class="cmt">#######</span>
+    <span class="kw">elif</span> exists(Pattern(<img src="1463042633259.png" />).similar(<span class="dig">0.90</span>)):
+        <span class="kw">print</span><span class="str">"[info] SSH will now perform actions in LVL2..."</span>
+        logging.info(<span class="str">"[info] SSH will now perform actions in LVL2..."</span>)
+        Region(<span class="dig">0</span>,<span class="dig">0</span>,<span class="dig">1680</span>,<span class="dig">1050</span>)
+
+        <span class="cmt"># Build student housing with green roof</span>
+        <span class="skw">click</span>(<img src="1462964532757.png" />)
+        <span class="skw">click</span>(<img src="1462965017051.png" />)
+        <span class="skw">dragDrop</span>(Pattern(<img src="1462969596032.png" />).targetOffset(-<span class="dig">342</span>,-<span class="dig">36</span>), Pattern(<img src="1462969596032.png" />).targetOffset(<span class="dig">354</span>,<span class="dig">36</span>))
+        <span class="skw">click</span>(<img src="1462965284753.png" />)
+        <span class="skw">click</span>(<img src="1462965316481.png" />)
+        <span class="skw">click</span>(<img src="1462965356299.png" />)
+        <span class="skw">click</span>(<img src="1462965423643.png" />)
+        <span class="skw">click</span>(<img src="1462965505087.png" />)
+        <span class="kw">print</span><span class="str">"[info] Construction planned and permit requested..."</span>
+        logging.info(<span class="str">"[info] Construction planned and permit requested..."</span>)
+        <span class="skw">wait</span>(<img src="1462967015724.png" />, FOREVER)
+        <span class="kw">print</span><span class="str">"[info] Permit approved!"</span>
+        logging.info(<span class="str">"[info] Permit approved!"</span>)
+        <span class="skw">click</span>()
+
+        <span class="skw">wait</span>(<img src="1462967117443.png" />, <span class="dig">1</span>)
+        <span class="skw">click</span>()
+        <span class="kw">print</span><span class="str">"[info] Waiting for construction to start..."</span>
+        logging.info(<span class="str">"[info] Waiting for construction to start..."</span>)
+        <span class="skw">wait</span>(<img src="1462968082813.png" />)
+        waitVanish(<img src="1462968082813.png" />, FOREVER)
+        <span class="kw">print</span><span class="str">"[info] Construction started!"</span>
+        logging.info(<span class="str">"[info] Construction started!"</span>)
+
+        <span class="skw">wait</span>(<img src="1462971096960.png" />, FOREVER) <span class="cmt"># WIP!!!!</span>
+        <span class="kw">print</span><span class="str">"[success] Construction completed!"</span>
+        logging.info(<span class="str">"[success] Construction completed!"</span>)
+
+    <span class="cmt">###################</span>
+    <span class="cmt"># UNI Real Estate #</span>
+    <span class="cmt">###################</span>
+
+    <span class="kw">elif</span> exists(Pattern(<img src="1463039752222.png" />).similar(<span class="dig">0.90</span>)):
+        <span class="kw">print</span><span class="str">"[info] UNI Real Estate will now perform actions in LVL2..."</span>
+        logging.info(<span class="str">"[info] UNI Real Estate will now perform actions in LVL2..."</span>)
+        Region(<span class="dig">0</span>,<span class="dig">0</span>,<span class="dig">1680</span>,<span class="dig">1050</span>)
+        <span class="skw">click</span>(<img src="1463044784704.png" />)
+        <span class="skw">click</span>(<img src="1463044826697.png" />)
+        <span class="skw">dragDrop</span>(Pattern(<img src="1463044887584.png" />).similar(<span class="dig">0.91</span>).targetOffset(-<span class="dig">56</span>,-<span class="dig">41</span>), Pattern(<img src="1463044887584.png" />).similar(<span class="dig">0.92</span>).targetOffset(<span class="dig">69</span>,<span class="dig">36</span>))
+        <span class="skw">click</span>(<img src="1463045049624.png" />)
+        <span class="skw">wait</span>(<img src="1463045255224.png" />)
+        <span class="skw">click</span>()
+        <span class="skw">click</span>(<img src="1463045092808.png" />)
+        <span class="skw">wait</span>(<img src="1463045360208.png" />, FOREVER)
+        <span class="skw">click</span>()
+        <span class="skw">wait</span>(<img src="1463045489473.png" />)
+        <span class="skw">click</span>()
+        <span class="kw">print</span><span class="str">"[info] Waiting for construction to start..."</span>
+        logging.info(<span class="str">"[info] Waiting for construction to start..."</span>)
+        <span class="skw">wait</span>(<img src="1462968082813.png" />)
+        waitVanish(<img src="1462968082813.png" />, FOREVER)
+        <span class="kw">print</span><span class="str">"[info] Construction started!"</span>
+        logging.info(<span class="str">"[info] Construction started!"</span>)
+        <span class="skw">wait</span>(<img src="1463143496863.png" />, FOREVER) <span class="cmt"># WIP!!!!</span>
+        <span class="kw">print</span><span class="str">"[success] Construction completed!"</span>
+        logging.info(<span class="str">"[success] Construction completed!"</span>)
+
+    <span class="kw">else</span>:
+        <span class="kw">print</span><span class="str">"[error] Oops!"</span>
+        exit(<span class="dig">1</span>)
+
+<span class="kw">elif</span> Settings.isMac():
+
+    <span class="cmt">################</span>
+    <span class="cmt"># Municipality #</span>
+    <span class="cmt">################</span>
+
+    <span class="kw">if</span> exists(Pattern(<img src="1463039923773.png" />).similar(<span class="dig">0.90</span>)):
+        <span class="kw">print</span><span class="str">"[info] Municipality will now perform actions in LVL2..."</span>
+        logging.info(<span class="str">"[info] Municipality will now perform actions in LVL2..."</span>)
+
+        Region(<span class="dig">1021</span>,<span class="dig">118</span>,<span class="dig">259</span>,<span class="dig">259</span>)
+        <span class="skw">click</span>(<img src="1463488195411.png" />)
+        <span class="skw">click</span>()
+        <span class="skw">wait</span>(<img src="1463489286072.png" />, <span class="dig">1</span>)
+        <span class="skw">click</span>(<img src="1463488240082.png" />)
+        <span class="skw">wait</span>(<img src="1463489385693.png" />)
+
+        loc = SCREEN.getCenter()
+        wheel(loc, WHEEL_UP, <span class="dig">1</span>)
+        <span class="skw">sleep</span>(<span class="dig">1</span>)
+        wheel(loc, WHEEL_UP, <span class="dig">1</span>)
+        <span class="skw">click</span>(<img src="1463489034040.png" />)
+        <span class="skw">click</span>(<img src="Multiplayer-CG5-MAC-Municipality-LVL2-DecTrees-160517-VVD-0.1.png" />)
+        <span class="skw">dragDrop</span>(Pattern(<img src="Multiplayer-CG5-MAC-Municipality-LVL2-DecTrees-DragDrop-160517-VVD-0.1.png" />).targetOffset(-<span class="dig">105</span>,-<span class="dig">139</span>), Pattern(<img src="Multiplayer-CG5-MAC-Municipality-LVL2-DecTrees-DragDrop-160517-VVD-0.1.png" />).targetOffset(<span class="dig">107</span>,<span class="dig">125</span>))
+
+        <span class="skw">click</span>(<img src="Multiplayer-CG5-MAC-Municipality-LVL2-BuildBtn-160517-VVD-0.1.png" />)
+        <span class="skw">click</span>(<img src="Arrow-Minimap-160517-VVD-0.1.png" />)
+
+        <span class="cmt"># Confirming build permit requests</span>
+        <span class="skw">wait</span>(Pattern(<img src="Multiplayer-CG5-MAC-Municipality-LVL1-MiniMap-QMarkIcon-160428-VVD-0.1.png" />).similar(<span class="dig">0.80</span>), FOREVER)
+        <span class="kw">for</span> x <span class="kw">in</span> range(<span class="dig">0</span>, <span class="dig">15</span>):
+            <span class="kw">while</span> exists(Pattern(<img src="Multiplayer-CG5-MAC-Municipality-LVL1-MiniMap-QMarkIcon-160428-VVD-0.1.png" />).similar(<span class="dig">0.80</span>), x):
+                <span class="skw">click</span>()
+                exists(<img src="Multiplayer-CG5-MAC-Municipality-LVL1-ConfMenu-YesBtn-160428-VVD-0.1.png" />)
+                <span class="skw">click</span>()
+                <span class="kw">break</span>
+
+    <span class="cmt">##############</span>
+    <span class="cmt"># Waterboard #</span>
+    <span class="cmt">##############</span>
+    <span class="kw">elif</span> exists(Pattern(<img src="1463040053199.png" />).similar(<span class="dig">0.90</span>)):
+        <span class="kw">pass</span>
+
+    <span class="cmt">#######</span>
+    <span class="cmt"># SSH #</span>
+    <span class="cmt">#######</span>
+    <span class="kw">elif</span> exists(Pattern(<img src="1463040372253.png" />).similar(<span class="dig">0.90</span>)):
+        <span class="kw">pass</span>
+
+    <span class="cmt">###################</span>
+    <span class="cmt"># UNI Real Estate #</span>
+    <span class="cmt">###################</span>
+    <span class="kw">else</span>:
+        <span class="kw">pass</span>
+
+<span class="kw">else</span>:
+    <span class="kw">print</span><span class="str">"[error] OS error!"</span>
+    logging.error(<span class="str">"[error] OS error!"</span>)
+    exit(<span class="dig">1</span>)
+</pre>
+</body>
+</html>
